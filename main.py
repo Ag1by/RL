@@ -15,7 +15,7 @@ app = Starlette(
     routes = [
         Route('/',homepage),
         Route('/message',about),
-        Route('contect',contects)
+        Route('contect',contect)
     ]
 )
 uvicorn.run(app,port=8080)
